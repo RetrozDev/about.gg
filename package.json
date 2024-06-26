@@ -1,0 +1,16 @@
+{
+  "name": "about.gg",
+  "version": "1.0.0",
+  "description": "A website to show all your links with custom decorations, trophies and background music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "cross-env-shell \"cd ./frontend && npm run format\""
+  },
+  "author": "Retroz",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "^3.3.2"
+  }
+}
