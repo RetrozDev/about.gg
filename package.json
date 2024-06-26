@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "cross-env-shell \"cd ./frontend && npm run format\""
+    "format": "cross-env-shell \"cd ./frontend && npm run format && cd ../backend && npm run format\""
   },
   "author": "Retroz",
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.5",
+    "eslint": "^9.5.0",
     "prettier": "^3.3.2"
   }
 }
